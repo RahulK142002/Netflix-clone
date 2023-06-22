@@ -1,5 +1,5 @@
 .nav {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
   padding: 20px;
@@ -10,15 +10,18 @@
 }
 
 .nav_logo {
-  position: fixed;
+  position: relative;
+  margin-top: auto;
   left: 20px;
+  height: 20px;
   width: 80px;
   object-fit: contain;
 }
 
 .nav_avatar {
-  position: fixed;
-  right: 20px;
+  position: relative;
+  height: 25px;
+  right: 30px;
   width: 30px;
   object-fit: contain;
 }
